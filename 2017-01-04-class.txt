@@ -1,0 +1,33 @@
+(1) class X (Y):
+    
+    ## Make a class named X that is-a Y.
+
+
+(2) class X (object):
+        def __init__(self, arg1, arg2...)
+
+    ## class X has-a __init__ function that 
+       takes self, arg1,arg2,etc. parameters.
+
+
+(3) class X (object):
+        def M(self, arg1, arg2...)
+
+    ## class X has-a M function that takes self,
+       arg1, arg2, etc. parameters.
+
+
+(4) dog = Animal()
+
+    ## Set dog to an instance of class Animal().
+
+
+(5) dog.fur = "yellow"
+
+    ## From dog get the fur attribute and set it 
+       to "yellow".
+
+
+
+    ## From dog get the fur function and call it 
+       with parameters self, color, and length.
